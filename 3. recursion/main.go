@@ -5,7 +5,11 @@ import "fmt"
 func main() {
 	// countdown(4)
 	// fmt.Println(fact(5))
-	fmt.Println(IsPowerOfTwo(3))
+	// fmt.Println(IsPowerOfTwo(3))
+	// fmt.Println(isPowerOfThree(0))
+	// fmt.Println(isPowerOfFour(1024))
+	fmt.Println(fib(10))
+	fmt.Println(fib2(10))
 }
 
 func countdown(num int) {
