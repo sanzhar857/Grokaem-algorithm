@@ -28,13 +28,15 @@ func BFS[T comparable](graph Graph[T], startNode T) {
 }
 
 func main() {
-	socialGraph := Graph[string]{
-		"Sanzhar": {"Asem", "Marjan"},
-		"Asem":    {"Sanzhar", "Tumar"},
-		"Marjan":  {"Sanzhar", "Astana"},
-		"Tumar":   {"Asem"},
-		"Astana":  {"Marjan"},
-	}
+	// socialGraph := Graph[string]{
+	// 	"Sanzhar": {"Asem", "Marjan"},
+	// 	"Asem":    {"Sanzhar", "Tumar"},
+	// 	"Marjan":  {"Sanzhar", "Astana"},
+	// 	"Tumar":   {"Asem"},
+	// 	"Astana":  {"Marjan"},
+	// }
 
-	BFS(socialGraph, "Sanzhar")
+	// BFS(socialGraph, "Sanzhar")
+	// cities()
+	persons()
 }
